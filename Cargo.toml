@@ -1,0 +1,16 @@
+[package]
+name = "cart-ai"
+version = "0.1.0"
+authors = ["Branson Camp <camp.branson@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+random_color = "0.4.4"
+rand = "0.7.2"
+fps_counter = "1.0.0"
+
+
+[dependencies.sdl2]
+version = "0.32.2"
+features = ["gfx", "ttf"]
+
